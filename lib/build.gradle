@@ -27,9 +27,9 @@ dependencies {
     implementation 'com.google.guava:guava:30.1.1-jre'
 }
 
-compileJava.options.encoding = 'UTF-8' 
+compileJava.options.encoding = 'EUC-KR' 
 tasks.withType(JavaCompile) {
-    options.encoding = "UTF-8"
+    options.encoding = "EUC=KR"
 }
 tasks.withType(JavaCompile) {
     options.release = 8
